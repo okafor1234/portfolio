@@ -5,7 +5,7 @@ import React from 'react'
     <form>
       <div>
         <div>
-          <label>Food</label>
+          <label>commission</label>
           <input type='text' />
         </div>
       </div>
