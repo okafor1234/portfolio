@@ -2,7 +2,14 @@ import React from 'react'
 
  const App = () => {
   return (
-    <div>App</div>
+    <form>
+      <div>
+        <div>
+          <label>Name</label>
+          <input type='text' />
+        </div>
+      </div>
+    </form>
   )
 }
 
