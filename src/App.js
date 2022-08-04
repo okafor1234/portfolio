@@ -5,7 +5,7 @@ import React from 'react'
     <form>
       <div>
         <div>
-          <label>people</label>
+          <label>country</label>
           <input type='text' />
         </div>
       </div>
