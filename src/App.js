@@ -5,7 +5,7 @@ import React from 'react'
     <form>
       <div>
         <div>
-          <label>comics</label>
+          <label>finally ready</label>
           <input type='text' />
         </div>
       </div>
