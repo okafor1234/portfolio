@@ -1,15 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Intro from './components/Intro/Intro';
 
  const App = () => {
   return (
-    <form>
-      <div>
         <div>
-          <label>Last name</label>
-          <input type='text' />
+          <Intro />
         </div>
-      </div>
-    </form>
   )
 }
 
