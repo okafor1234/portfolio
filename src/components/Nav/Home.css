@@ -1,0 +1,46 @@
+img {
+  height: 30%;
+  width: 30%;
+  margin-left: 65%;
+  margin-top: -204px;
+  filter: brightness(120%);
+  filter: drop-shadow(10px 10px 10px);
+  border-radius: 2%;
+}
+
+.text-head h1 {
+    margin-left: 6%;
+}
+
+.text h4 {
+    margin-left: 8%;
+    font-style: italic;
+    color: darkslategray;
+    background-color: gainsboro;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-right: 100px;
+}
+
+@media (max-width: 768px) {
+  img {
+    display: block;
+    margin-top: 1px;
+    margin-left: 20%;
+    height: 60%;
+    width: 60%;
+  }
+
+  .text-head h1 {
+    text-align: left;
+    margin-left: 8%;
+    display: flex;
+    text-align: inherit;
+  }
+
+  .text h4 {
+    margin-left: 8%;
+    font-style: italic;
+    margin-right: auto;
+  }
+}

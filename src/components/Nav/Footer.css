@@ -1,0 +1,57 @@
+.color {
+   background-color: black;
+}
+
+.icons {
+    width: 38px;
+    height: 38px;
+    margin-top: 60px;
+    filter: brightness(700%);
+    filter: drop-shadow(10px 10px 10px black);
+    margin: auto;
+    margin-top: 72px;
+    margin-bottom: 56px;
+}
+
+h2 {
+    color: rgb(67, 137, 132);
+    margin-top: 21px;
+    text-align: center;
+    font:  400 25px/ 32px  sans-serif;
+    padding-top: 83px;
+}
+
+a {
+    word-spacing: 20px;
+    color: aquamarine;
+}
+
+.icon {
+    margin-left: 542px;
+}
+
+h5 {
+    text-align: center;
+    color: aquamarine;
+    font-family: sans-serif;
+    padding-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+    .icons {
+        width: 38px;
+        height: 38px;
+        margin-top: 60px;
+        filter: brightness(700%);
+        filter: drop-shadow(10px 10px 10px black);
+        margin: auto;
+        margin-top: 72px;
+        margin-bottom: 56px;
+    }
+
+    .icon {
+        margin-left: 15px;
+        display: flex;
+    }
+   
+}
