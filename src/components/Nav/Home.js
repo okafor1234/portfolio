@@ -1,5 +1,10 @@
 import React from "react";
+import NewComment from "../NewComment/NewComment";
+import About from "./About";
+import Footer from "./Footer";
 import "./Home.css";
+import MyServices from "./MyServices";
+
 
 const Home = () => {
   return (
@@ -13,6 +18,10 @@ const Home = () => {
            <h4>(Angular, React JS and SQL)</h4>
         </div>
       <img src="./images/image.jpg" alt="" />
+      <About />
+    <MyServices />
+    <NewComment />
+    <Footer />
     </section>
   );
 };
