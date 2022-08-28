@@ -3,6 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    <div id="footer">
     <div className="color">
       <h2>Looking to hire me? &nbsp;
       
@@ -27,7 +28,7 @@ const Footer = () => {
       </div>
       <h5>&copy; 2022 Okafor Jeffrey</h5>
     </div>
-    
+    </div>
   );
 };
 export default Footer;

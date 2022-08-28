@@ -1,0 +1,43 @@
+.newcomment__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .newcomment__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .newcomment__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .newcomment__actions {
+    text-align: right;
+  }
+
+  .newcomment__control textarea {
+    height: 335%;
+    width: 456%;
+  }
+
+  
+
+
+  @media (max-width: 768px) {
+    .newcomment__control textarea {
+        height: 335%;
+        width: 230%;
+      }
+
+
+  }

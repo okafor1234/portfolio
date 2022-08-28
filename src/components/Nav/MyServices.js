@@ -4,7 +4,8 @@ import "./MyServices.css";
 const MyServices = () => {
 
   return (
-    <div className="content-services">
+
+    <div className="content-services" id="#myservices">
       <div className="content-services-title">What I do</div>
       <div className="content-content">
         <div className="content-services-subtitle">
@@ -36,6 +37,7 @@ const MyServices = () => {
       </div>
       <a href="./Images/okafor.pdf" download="OKAFOR'S RESUME" className="btn"> RESUME </a>
     </div>
+    
   );
 };
 

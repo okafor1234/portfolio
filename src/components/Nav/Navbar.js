@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link"
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
@@ -14,13 +14,13 @@ const Navbar = () => {
           <Link to="/">
             <li>Home</li>
           </Link>
-          <Link to="/about">
+          <a href="#about" smooth>
             <li>About</li>
-          </Link>
-          <Link to="/myservices">
+          </a>
+          <Link to="#myservices" smooth>
             <li>MyServices</li>
           </Link>
-          <Link to="/contact">
+          <Link to="#contact" smooth>
             <li>Contact</li>
           </Link>
         </ul>
@@ -28,6 +28,8 @@ const Navbar = () => {
           {Mobile ? <ImCross /> : <FaBars />}
         </button>
     </nav>
+
+    
   );
 };
 
